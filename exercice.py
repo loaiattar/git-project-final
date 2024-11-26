@@ -39,8 +39,8 @@ def modifier_statut_todo():
             print(f"Le todo '{todo['titre']}' est maintenant marqué comme 'Fait'.")
         elif todo['statut'] == 'Fait':
             # corriger l'erreur :
-            todo['statut'] = 'À fair'  # Provoque un comportement anormal
-            print(f"Le todo '{todo['titre']}' est maintenant marqué comme 'À fair'.")
+            todo['statut'] = 'À faire'  #Correction de code  Provoque un comportement normal
+            print(f"Le todo '{todo['titre']}' est maintenant marqué comme 'À faire'.")
     except (ValueError, IndexError):
         print("Choix invalide, veuillez entrer un numéro valide.")
 
