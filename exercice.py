@@ -1,5 +1,5 @@
 # Liste de todos initiale, chaque todo est un dictionnaire avec un titre et un statut
-todos = []
+todos = 
 
 # Fonction pour lister les todos avec leur statut
 def lister_todos():
