@@ -42,7 +42,7 @@ def modifier_statut_todo():
             todo['statut'] = 'À faire'  #Correction de code  Provoque un comportement normal
             print(f"Le todo '{todo['titre']}' est maintenant marqué comme 'À faire'.")
     except (ValueError, IndexError):
-        print("Choix invalide, veuillez entrer un numéro valide.")
+        print("Choix invalide, veuillez entrer un numéro valide..")
 
 # Fonction pour supprimer un todo
 def supprimer_todo():
